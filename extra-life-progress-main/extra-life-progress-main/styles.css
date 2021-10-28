@@ -1,0 +1,48 @@
+:root {
+  --progress-color-background: #1a4c6d;
+  --progress-color: #26c2eb;
+  --label-color: #1a4c6d;
+  --background-color: #cbcbcb;
+}
+
+.label {
+  display: inline;
+  font-family: Nunito, sans-serif;
+  color: var(--label-color);
+  font-weight: bolder;
+}
+
+.labels {
+  width: 500px;
+  padding-top: 2px;
+  margin: auto;
+  font-size: 24px;
+}
+
+#progress {
+  display: inline;
+  float: right;
+  font-family: Nunito, sans-serif;
+  color: var(--label-color);
+}
+
+#progressBar {
+  background-color: var(--progress-color);
+  font-size: 22px;
+}
+
+.progress {
+  background-color: var(--progress-color-background);
+  height: 35px;
+  width: 500px;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.progressTracker {
+  width: 510px;
+  height: 80px;
+  background-color: var(--background-color);
+  border-radius: .5rem;
+  font-weight: bold;
+}
